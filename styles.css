@@ -1,3 +1,14 @@
+:root {
+  --blue: #1e90ff;
+  --white: #05a728;
+}
+
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 100px; /* Adjust the height as needed */
+  margin: 0 20px; /* Adjust the margin as needed */
+}
+
 .user-profile img {
   width: 30px;
   height: 30px;
