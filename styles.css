@@ -8,6 +8,20 @@
   height: 100px; /* Adjust the height as needed */
   margin: 0 20px; /* Adjust the margin as needed */
 }
+.input-container {
+  width: 120px; /* Adjust width as needed */
+}
+.input-container input[type="text"]::placeholder {
+  font-size: 12px; /* Adjust placeholder font size as needed */
+}
+
+.input-container input[type="text"] {
+  width: 85%;
+  padding: 5px 5px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px; /* Adjust font size as needed */
+}
 
 .user-profile img {
   width: 30px;
@@ -25,6 +39,6 @@
   color: rgb(18, 179, 31);
   font-weight: 600;
 }
-.success{
+.success {
   color: rgb(110, 248, 82);
-} 
+}
